@@ -1,0 +1,15 @@
+.links {
+    display: flex;
+    gap: 3em;
+  }
+  
+  .enlaces {
+    position: relative;
+    z-index: 1000;
+    /* padding: 30px; */
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: "Montserrat", sans-serif;
+    pointer-events: auto;
+  }
+  
