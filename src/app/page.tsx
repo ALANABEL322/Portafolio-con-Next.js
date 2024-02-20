@@ -68,8 +68,8 @@ export default function Home() {
   return (
     <div>
       <main className="flex flex-col justify-between">
-        <div className="">
-          <div className="z-50">
+        <div className="mt-6">
+          <div className="mt-6">
             <div className="container hidden lg:block">
               <video className={styles.heroVideo} autoPlay muted loop>
                 <source
