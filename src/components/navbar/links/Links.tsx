@@ -29,9 +29,9 @@ const Links = () => {
   ];
 
   return (
-    <div className={styles.links}>
+    <div className={`${styles.links}`}>
       {links.map((link) => (
-        <Link className={styles.enlaces} href={link.path} key={link.title}>
+        <Link className={`${styles.enlaces} brightness-200`} href={link.path} key={link.title}>
           {link.title}
         </Link>
       ))}

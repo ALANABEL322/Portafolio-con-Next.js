@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className={styles.nav}>
-        <Link className={styles.logo} href="/">
+        <Link className={`${styles.logo}`} href="/">
           <Image
             src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1708019562/imagenes/nbrk7j4dwj3e40ojk26w.png"
             alt="logo"
