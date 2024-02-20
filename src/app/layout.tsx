@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const playfairdisplay = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portafolio Alan",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={playfairdisplay.className}>
         <Navbar />
         {children}
       </body>

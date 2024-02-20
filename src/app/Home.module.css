@@ -1,45 +1,58 @@
+.myTheme {
+  --primary-color: #22d3ee;
+  --accent-color: #9ca3af;
+  --neutral-color: #6b7280;
+}
+
 .contenedor {
-    position: relative;
-    z-index: 1;
-    /* pointer-events: none; */
-    /* width: 100%;
-    height: 100%; */
-  }
-  
-  .herocopy {
-    width: 100%;
-    text-align: center;
-  }
-  
-  .herocopyh1 {
-    font-size: 8vw;
-    color: antiquewhite;
-    font-family: "Playfair Display", serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    transition: color 0.3s ease; 
-  }
+  position: relative;
+  z-index: 1;
+}
 
-  .herocopyh1:hover {
-    color: rgb(69, 180, 231); 
-  }
+.herocopy {
+  width: 100%;
+  text-align: center;
+}
 
-  
-  .heroVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    max-width: 190%;
-    max-height: 100%;
-  }
-  
-  /***VIDEO VERTICAL***/
-  
-  .heroVideoVertical {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    max-width: 300%;
-    min-height: 100%;
-  }
+.herocopyh1 {
+  font-size: 7vw;
+  color: antiquewhite;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hoveredWord {
+  color: var(--primary-color);
+  transition: color 1.3s;
+}
+
+.flipText {
+  transform: scaleY(-1);
+}
+
+/******videohorizontal******/
+
+.heroVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 190%;
+  max-height: 100%;
+}
+
+/***VIDEO VERTICAL***/
+
+.heroVideoVertical {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  max-width: 300%;
+  min-height: 100%;
+}
+
+/**Gsap Text**/
+#scramble {
+  font-size: 2vw;
+}
