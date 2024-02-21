@@ -25,7 +25,7 @@ const config: Config = {
 
           accent: "#9ca3af",
 
-          neutral: "#6b7280",
+          backgroundcolor: "#6b7280",
           
           info: "#06b6d4",
 
