@@ -1,6 +1,33 @@
 .myTheme {
-    --primary-color: #22d3ee;
-    --accent-color: #9ca3af;
-    --neutral-color: #6b7280;
-    --background-color: #6b1280
-  }
+  --primary-color: #22d3ee;
+  --accent-color: #9ca3af;
+  --neutral-color: #6b7280;
+  --background-color: #6b1280;
+}
+
+/* about.module.css */
+.backgroundImage {
+  position: absolute;
+  right: 0;
+  width: 58%;
+  height: 150%;
+  object-fit: cover;
+}
+
+.word {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.hoveredAbout .word {
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+.ringsRight {
+  position: absolute;
+  right: 0;
+  width: 27%;
+  height: 100%;
+  object-fit: cover;
+}
