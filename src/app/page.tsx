@@ -113,15 +113,9 @@ export default function Home() {
               </h2>
               <div className={`container mt-6 ${styles.demoContainer}`}>
                 <div
-                  className={`demo  flex-col  flex items-center justify-center mt-6${styles.textBlock}`}
+                  className={`demo flex-col  flex items-center justify-center mt-1 ${styles.textBlock}`}
                 >
                   <div className={`${styles.scramble} sm:text-4xl`}></div>
-                  <span className={`${styles.charsCustom}`}></span>
-                  <span className={`${styles.charsNumbers}`}></span>
-                  <br />
-                  <span className={`${styles.charsUppercase}`}></span>
-                  <span className={`${styles.charsLowercase}`}></span>
-                  <div className={`${styles.newClass}`}></div>
                 </div>
               </div>
             </div>

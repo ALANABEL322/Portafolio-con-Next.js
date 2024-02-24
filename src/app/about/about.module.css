@@ -1,7 +1,7 @@
 .myTheme {
   --primary-color: #22d3ee;
   --accent-color: #9ca3af;
-  --neutral-color: #6b7280;
+  --neutral-color: #1e2129;
   --background-color: #6b1280;
 }
 
@@ -30,4 +30,23 @@
   width: 27%;
   height: 100%;
   object-fit: cover;
+}
+
+/***section about**/
+.sectionAbout {
+  display: flex;
+
+}
+
+.verticalhr {
+  height: 50%;
+  width: 1px;
+  background-color: rgb(252, 252, 252);
+  transform: rotate(900deg);
+}
+.horizontalhr {
+  height:90%;
+  width: 1px;
+  background-color: rgb(252, 252, 252);
+  transform: rotate(90deg);
 }
