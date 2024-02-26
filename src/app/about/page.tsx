@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./about.module.css";
 import "animate.css";
+import Footer from "@/components/footer/Footer";
 // import { gsap } from "gsap";
 
 // import { CustomEase } from "gsap/CustomEase";
@@ -67,20 +68,26 @@ export default function About() {
               className="object-cover animate__animated animate__zoomIn hidden md:block lg:block xl:block"
             />
           </div>
-
           {/* Texto a la derecha */}
-          <div className=" w-full md:w-3/5 p-6 relative z-20 hidden md:block lg:block xl:block text-balance">
-            <h1 className="font-bold mb-1  animate__animated animate__backInDown xs:text-2xl sm:text-3xl md:text-5xl lg:text-7xl xl:text-8xl z-40 ">
-              <span className={`highlight-word  ${styles.word}`}>
+          <div
+            className={` w-full md:w-3/5 p-6 relative flex-col z-20 hidden md:block lg:block xl:block text-balance ${
+              isHovered ? styles.myTheme : ""
+            }`}
+            onMouseOver={() => setIsHovered(true)}
+            onMouseOut={() => setIsHovered(false)}
+          >
+            <h1 className="font-bold mb-1 flex-col  animate__animated animate__backInDown xs:text-2xl sm:text-3xl md:text-5xl lg:text-7xl xl:text-8xl z-40">
+              <span className={`highlight-word   ${styles.word}`}>
                 hi i'm alan
               </span>{" "}
               <br />
             </h1>
-            <span className="mt-1 mb-2 font-bold  xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl z-40">
+
+            <span className="mt-1 mb-2 font-bold flex-col xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl z-40">
               {" "}
               let's get to know each other{" "}
             </span>
-            <h2 className=" leading-relaxed font-semibold mb-3 xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl z-[20]">
+            <h2 className="flex-col leading-relaxed font-semibold mb-3 xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl z-[20]">
               Passionate Web Developer,{" "}
               <span className="shadow-lg shadow-cyan-500/10 xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl">
                 {" "}
@@ -147,7 +154,7 @@ export default function About() {
       {/* Gradiente entre la sección y el texto */}
 
       <div
-        className={`${styles.sectionAbout} w-screen md:h-screen md:max-h-screen max-w-full flex flex-col items-center bg-gradient-to-b from-[#0c0c0e]	 to-[#0E1118]`}
+        className={`${styles.sectionAbout} w-screen md:h-screen md:max-h-screen max-w-full flex flex-col items-center bg-gradient-to-b from-[#0c0c0e]	 to-[#0E1118] z-30`}
       >
         <h1 className="text-gray-300 pb-8 mt-30 font-bold  xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-7xl z-30">
           hobbies
@@ -272,7 +279,7 @@ export default function About() {
         </div>
       </div>
       {/**section aboutme */}
-      <div className="w-screen  lg:min-h-screen xl:min-h-screen max-w-full flex flex-col items-center bg-gradient-to-b  from-[#0E1118]	 to-gray-950 lg:overflow-hidden">
+      <div className="w-screen  lg:min-h-screen xl:min-h-screen max-w-full flex flex-col items-center bg-gradient-to-b  from-[#0E1118]	 to-gray-950  lg:overflow-hidden">
         <h1 className=" text-center text-gray-300 mt-20  m-[50px] font-bold xs:text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl">
           about me{" "}
         </h1>
@@ -321,8 +328,7 @@ export default function About() {
           </p>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
-//md:hidden lg:hidden xs:hidden
-//md:hidden lg:hidden xl:hidden

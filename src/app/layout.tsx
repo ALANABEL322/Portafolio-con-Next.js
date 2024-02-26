@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={playfairdisplay.className}>
         <Navbar />
         {children}
-      </body>
+      </body> 
     </html>
   );
 }
