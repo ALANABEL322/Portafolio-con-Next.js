@@ -21,7 +21,7 @@ const Footer = () => {
               height={100}
             />
           </Link>
-          <p className="text-slate-100	">
+          <p className="text-slate-100">
             Copyright © 2024 - All right reserved
           </p>
         </aside>
