@@ -9,8 +9,8 @@
 .backgroundImage {
   position: absolute;
   right: 0;
-  width: 58%;
-  height: 150%;
+  width: 53%;
+  height: 130%;
   object-fit: cover;
 }
 
@@ -35,17 +35,16 @@
 /***section about**/
 .sectionAbout {
   display: flex;
-
 }
 
 .verticalhr {
-  height: 50%;
+  height: 40%;
   width: 1px;
   background-color: rgb(252, 252, 252);
   transform: rotate(900deg);
 }
 .horizontalhr {
-  height:90%;
+  height: 15%;
   width: 1px;
   background-color: rgb(252, 252, 252);
   transform: rotate(90deg);
