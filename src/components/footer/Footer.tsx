@@ -22,7 +22,7 @@ const Footer = () => {
             />
           </Link>
           <p className="text-slate-100	">
-            Copyright © 2024 - All right reserved
+            Copyright © 2024 - All right reservedd
           </p>
         </aside>
         <nav className="px-5 grid-flow-col gap-4 md:place-self-center md:justify-self-end">
