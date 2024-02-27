@@ -1,0 +1,38 @@
+.card {
+  border-radius: 1px solid #fff;
+}
+
+.iconBootstrap,
+.iconJS,
+.iconReact,
+.iconTY,
+.iconMeteor,
+.iconMongo,
+.iconCSS {
+  font-size: 30px;
+}
+
+.iconBootstrap {
+  color: blueviolet;
+}
+.iconJS {
+  color: gold;
+}
+.iconReact {
+  color: aqua;
+}
+.iconTY {
+  color: #377cc8;
+}
+.iconMeteor {
+  color: #de4444;
+}
+.iconMongo {
+  color: chartreuse;
+}
+.iconCSS {
+  color: #2d54e5;
+}
+.featuted {
+  color: #22d3ee;
+}
