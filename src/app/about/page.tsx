@@ -279,47 +279,47 @@ export default function About() {
         </div>
       </div>
       {/**section aboutme */}
-      <div className="w-screen  lg:min-h-screen xl:min-h-screen max-w-full flex flex-col items-center bg-gradient-to-b  from-[#0E1118]	 to-gray-950  lg:overflow-hidden">
-        <h1 className=" text-center text-gray-300 mt-20  m-[50px] font-bold xs:text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl">
-          about me{" "}
+      <div className="w-screen lg:min-h-screen xl:min-h-screen max-w-full flex flex-col items-center justify-center bg-gradient-to-b from-[#0E1118] to-gray-950 lg:overflow-hidden">
+        <h1 className="text-center text-gray-300 mt-20 md:mb-[50px] font-bold xs:text-7xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl">
+          About me
         </h1>
 
-        <div className="md:flex justify-center items-center w-full">
-          {/* Imagen en el extremo derecho en pantallas grandes */}
-          <div className="hidden lg:w-3/5 md:block lg:block xl:block pr-6 lg:p-0 xl:p-0">
-            <p className="text-gray-300 lg:w-5/6 ps-8 flex justify-center items-center lg:block xl:block font-semibold xs:text:2-l sm:text-3-l md:text-2xl lg:text-4xl xl:text-4xl ">
+        <div className="md:pt-[150px] md:flex md:justify-center md:items-center w-full">
+          {/* Contenedor de texto */}
+          <div className="text-container hidden md:w-5/6 md:block lg:block xl:block pr-6 lg:p-0 xl:p-0">
+            <p className="text-gray-300 lg:w-5/6 ps-8 flex justify-center items-center lg:block xl:block font-semibold xs:text-2xl sm:text-3xl md:text-2xl lg:text-4xl xl:text-4xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim
               possimus a nesciunt dolorum sint quod, doloremque excepturi
               quaerat mollitia doloribus officia ex similique placeat tempora
               aliquid aliquam tenetur commodi.
             </p>
           </div>
+
+          {/* Imagen en pantallas grandes */}
           <div className="hidden md:block lg:block xl:block p-6 md:mr-auto lg:mr-auto xl:mr-auto">
             <Image
-              src={
-                "https://res.cloudinary.com/dn5ltihzv/image/upload/v1708800592/imagenes/perfil2.png"
-              }
+              src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1708800592/imagenes/perfil2.png"
               width={450}
               height={400}
               alt="profileimage2 "
               className="object-cover md:w-3/4 max-w-full"
             />
           </div>
-
-          {/* Imagen arriba del texto en pantallas pequeñas */}
         </div>
+
+        {/* Imagen en pantallas pequeñas */}
         <div className="flex flex-col visible sm:visible md:invisible lg:invisible xl:invisible items-center p-6">
           <Image
-            src={
-              "https://res.cloudinary.com/dn5ltihzv/image/upload/v1708800592/imagenes/perfil2.png"
-            }
-            width={450}
+            src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1708800592/imagenes/perfil2.png"
+            width={200}
             height={400}
             alt="profileimage2"
-            className="object-cover w-2/5 max-w-full"
+            className="object-cover xs:w-1/4  max-w-full"
           />
         </div>
-        <div className="lg:w-3/5   visible sm:visible md:invisible lg:invisible xl:invisible">
+
+        {/* Contenedor de texto en pantallas pequeñas */}
+        <div className="visible sm:visible md:invisible lg:invisible xl:invisible text-container">
           <p className="text-gray-300 lg:w-5/6 sm:pr-7 pl-7 flex justify-center items-center lg:block xl:block font-semibold lg:text-4xl xl:text-4xl mb-[40px] ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim
             possimus a nesciunt dolorum sint quod, doloremque excepturi quaerat
@@ -328,7 +328,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

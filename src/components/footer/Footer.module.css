@@ -1,4 +1,9 @@
 .footer {
-    border-top: 1px solid rgba(20, 27, 48, 0.623);
+  border-top: 1px solid rgba(20, 27, 48, 0.623);
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    justify-items: center !important;
   }
-  /**** (15, 23, 46, 0.623)***/
+}

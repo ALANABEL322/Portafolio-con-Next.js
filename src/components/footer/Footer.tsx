@@ -12,20 +12,39 @@ const Footer = () => {
       <footer
         className={`${styles.footer} bg-gray-950 footer items-center p-4 text-neutral-content`}
       >
-        <aside className="items-center grid-flow-col">
+        <aside className="items-center grid justify-items-start place-content-start grid-flow-col">
           <Link className={`${styles.logo}`} href="/">
             <Image
               src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1708019562/imagenes/nbrk7j4dwj3e40ojk26w.png"
               alt="logo"
               width={100}
               height={100}
+              className="object-cover hidden sm:block md:block lg:block xl:block"
             />
           </Link>
-          <p className="text-slate-100">
+          <p className="text-slate-100 hidden sm:block md:block lg:block xl:block">
             Copyright © 2024 - All right reserved
           </p>
         </aside>
-        <nav className="px-5 grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        {/**pantallas xs */}
+        <div className="container flex flex-col justify-center items-center">
+          <Link className={`${styles.logo}`} href="/">
+            <Image
+              src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1708019562/imagenes/nbrk7j4dwj3e40ojk26w.png"
+              alt="logo"
+              width={100}
+              height={100}
+              className="object-cover sm:hidden md:hidden lg:hidden xl:hidden"
+            />
+          </Link>
+          <p className="text-slate-100 text-center md:hidden sm:hidden lg:hidden xl:hidden flex justify-center items-center">
+            Copyright © 2024 - All right reserved
+          </p>
+        </div>
+        {/**pantalla xl */}
+        <nav
+          className={`${styles.icon} px-5   grid-flow-col gap-4 md:place-self-center md:justify-self-end`}
+        >
           <a
             href="https://github.com/ALANABEL322"
             target="_blank"
@@ -36,6 +55,7 @@ const Footer = () => {
               alt="GitHub icon"
               width={50}
               height={50}
+              className="object-cover "
             />
           </a>
           <a
@@ -48,6 +68,7 @@ const Footer = () => {
               alt="LinkedIn icon"
               width={51}
               height={50}
+              className="object-cover "
             />
           </a>
         </nav>
