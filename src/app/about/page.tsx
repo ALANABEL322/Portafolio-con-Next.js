@@ -5,11 +5,7 @@ import React, { useState } from "react";
 import styles from "./about.module.css";
 import "animate.css";
 import Footer from "@/components/footer/Footer";
-// import { gsap } from "gsap";
 
-// import { CustomEase } from "gsap/CustomEase";
-
-// gsap.registerPlugin(CustomEase);
 export default function About() {
   const [isHovered, setIsHovered] = useState(false);
 
