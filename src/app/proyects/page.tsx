@@ -37,7 +37,7 @@ export default function Proyectos() {
               className="object-cover w-full max-w-full rounded-md lg:rounded-r-md md:pr-3"
             />
             <p className="text-slate-50 text-1xl md:text-1xl lg:text-1xl xl:text-1xl mb-3 flex flex-col items-center justify-center">
-              <span className="">oct. 23 - dic 23.</span>{" "}
+              <span className="">sep. 23 - mar 24.</span>{" "}
               <span className="ml-3 mb-[40px] xs:text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-1xl">
                 Buenos Aires, Argentina
               </span>
