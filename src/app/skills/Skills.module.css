@@ -13,7 +13,7 @@
 }
 /**CARD**/
 
-.card {
+.cardJS {
   width: 190px;
   height: 354px;
   border-radius: 0.4em;
@@ -22,7 +22,7 @@
   border: rgb(31, 29, 29) 0.2em solid;
 }
 
-.card:hover {
+.cardJS:hover {
   border: #e2df09 0.1em solid;
 }
 .cardTypescript {
@@ -36,6 +36,93 @@
 
 .cardTypescript:hover {
   border: #099de2 0.1em solid;
+}
+
+.cardexpress {
+  width: 190px;
+  height: 354px;
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #79747415;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(31, 29, 29) 0.2em solid;
+}
+.cardexpress:hover {
+  border: #cecece 0.1em solid;
+}
+
+.cardMeteor {
+  width: 190px;
+  height: 354px;
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #79747415;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(31, 29, 29) 0.2em solid;
+}
+
+.cardMeteor:hover {
+  border: #df4f4f 0.1em solid;
+}
+
+.cardNext {
+  width: 190px;
+  height: 354px;
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #79747415;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(31, 29, 29) 0.2em solid;
+}
+.cardNext:hover {
+  border: #5c5353 0.1em solid;
+}
+
+.cardBootstrap {
+  width: 190px;
+  height: 354px;
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #79747415;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(31, 29, 29) 0.2em solid;
+}
+
+.cardBootstrap:hover {
+  border: #a37be1 0.1em solid;
+}
+
+.cardTailwind {
+  width: 190px;
+  height: 354px;
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #79747415;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(31, 29, 29) 0.2em solid;
+}
+
+.cardTailwind:hover {
+  border: #4db6ac 0.1em solid;
+}
+
+.cardSass {
+  width: 190px;
+  height: 354px;
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #79747415;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(31, 29, 29) 0.2em solid;
+}
+.cardSass:hover {
+  border: #d83b8b 0.1em solid;
+}
+.cardReact {
+  width: 190px;
+  height: 354px;
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #79747415;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(31, 29, 29) 0.2em solid;
+}
+
+.cardReact:hover {
+  border: #61dafb 0.1em solid;
 }
 
 /**CUBOS*/
