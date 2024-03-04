@@ -36,7 +36,7 @@ export default function Skills() {
       </div>
       {/**programmingLenguages */}
       <div className="flex content-evenly items-center justify-center lg:flex-row md:flex-row flex-col mt-10">
-        <div className={`${styles.cardJS} flex items-center  flex-col mt-`}>
+        <div className={`${styles.cardJS} flex items-center  flex-col mt-10`}>
           <div className=" flex items-center justify-center flex-col">
             <Image
               src={
@@ -48,31 +48,35 @@ export default function Skills() {
               className=" object-cover mt-5"
             />
           </div>
-          <h3 className="flex-col px-1 text-yellow-300 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+          <h3 className="flex-col mt-3 px-1 text-yellow-300 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
             Javascript
             <p className="text-yellow-100	top-0  text-[15px]">
               {" "}
-              orientado a objetos, de tipado débil se utiliza en el área del{" "}
-              <span className="text-yellow-300">cliente</span> y{" "}
-              <span className="text-yellow-300">servidor</span>
+              JavaScript es un lenguaje de programación interpretado, dialecto
+              del estándar <span className="text-yellow-300">
+                ECMAScript.
+              </span>{" "}
+              Se define como orientado a{" "}
+              <span className="text-yellow-300">objetos,</span> ​ basado en
+              prototipos, imperativo, débilmente tipado y dinámico.{" "}
             </p>
           </h3>
         </div>
         <div
-          className={`${styles.cardTypescript} flex items-center  flex-col mx-20 my-5`}
+          className={`${styles.cardTypescript} flex items-center  flex-col mx-20 mt-10`}
         >
           <div className=" flex items-center justify-center flex-col">
             <Image
               src={
                 "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709393613/imagenes/typescriptSVG.svg"
               }
-              width={60}
+              width={55}
               height={50}
               alt=""
               className=" object-cover mt-5"
             />
           </div>
-          <h3 className="flex-col px-1 text-sky-500	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+          <h3 className="flex-col mt-3 px-1 text-sky-500	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
             Typescript
             <p className="text-sky-50		top-0  text-[15px]">
               {" "}
@@ -86,7 +90,7 @@ export default function Skills() {
         </div>
       </div>
       {/**Frameworks */}
-      <div className=" w-screen  min-h-full relative bg-gradient-to-b from-[#0c0c0e]	   to-slate-800 mt-20">
+      <div className=" w-screen  relative bg-gradient-to-b from-[#0c0c0e]	   to-slate-800 mt-20">
         <div className=" absolute right-0 ">
           <Image
             src={
@@ -182,195 +186,200 @@ export default function Skills() {
         </div>
       </div>
       {/**la mitad de tarjetas */}
-      <div className="absolute left-0 mt-7">
-        <Image
-          src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709426659/imagenes/Preprocessors%20and%20libraries%20SVG.svg"
-          width={500}
-          height={500}
-          alt="arrowPRE"
-          className="object-cover lg:w-1/2"
-        />
-      </div>
-      <div className="w-screen  min-h-full  flex items-center justify-center flex-col lg:flex-row bg-gradient-to-b from-[#1E293A] to-[#0E1118]">
-        <div
-          className={`${styles.cardTailwind} flex items-center  flex-col mx-20  mt-20 `}
-        >
-          <div className=" flex items-center justify-center flex-col">
-            <Image
-              src={
-                "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709425787/imagenes/tailwindcssSVG.svg"
-              }
-              width={60}
-              height={50}
-              alt="cardTY"
-              className=" object-cover mt-5 lg:w-1/4  "
-            />
-          </div>
-          <h3 className="flex-col px-1 text-[#4DB6AC]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
-            TailwindCSS
-            <p className="text-sky-50		top-0  text-[15px]">
-              {" "}
-              TS código abierto desarrollado y mantenido por microsoft.Es un
-              superconjunto de JavaScript, añade tipos estáticos y objetos
-              basados en clases <span className="text-teal-300">
-                cliente
-              </span> y <span className="text-teal-300">servidor</span>
-            </p>
-          </h3>
+      <div className=" w-screen   relative bg-gradient-to-b from-[#1E293A] to-[#0E1118]">
+        <div className="absolute left-0 mt-10">
+          <Image
+            src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709426659/imagenes/Preprocessors%20and%20libraries%20SVG.svg"
+            width={500}
+            height={500}
+            alt="arrowPRE"
+            className="object-cover lg:w-1/2"
+          />
         </div>
-        <div
-          className={`${styles.cardBootstrap} flex items-center  flex-col mx-20  mt-20 `}
-        >
-          <div className=" flex items-center justify-center flex-col">
-            <Image
-              src={
-                "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709425463/imagenes/bootstrapSVG.svg"
-              }
-              width={60}
-              height={50}
-              alt="cardTY"
-              className=" object-cover mt-5 lg:w-1/4  "
-            />
+        <div className=" flex flex-col items-center justify-center ">
+          <div className="container flex items-center justify-center mt-10 flex-col lg:flex-row">
+            <div
+              className={`${styles.cardTailwind} flex items-center  flex-col   mt-20 `}
+            >
+              <div className=" flex items-center justify-center flex-col">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709425787/imagenes/tailwindcssSVG.svg"
+                  }
+                  width={60}
+                  height={50}
+                  alt="cardTY"
+                  className=" object-cover mt-5 lg:w-1/4  "
+                />
+              </div>
+              <h3 className="flex-col px-1 text-[#4DB6AC]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+                TailwindCSS
+                <p className="text-sky-50	top-0 text-[15px]">
+                  {" "}
+                  TS código abierto desarrollado y mantenido por microsoft.Es un
+                  superconjunto de JavaScript, añade tipos estáticos y objetos
+                  basados en clases{" "}
+                  <span className="text-teal-300">cliente</span> y{" "}
+                  <span className="text-teal-300">servidor</span>
+                </p>
+              </h3>
+            </div>
+            <div
+              className={`${styles.cardBootstrap} flex items-center  flex-col mx-10  mt-20 `}
+            >
+              <div className=" flex items-center justify-center flex-col">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709425463/imagenes/bootstrapSVG.svg"
+                  }
+                  width={60}
+                  height={50}
+                  alt="cardTY"
+                  className=" object-cover mt-5 lg:w-1/4  "
+                />
+              </div>
+              <h3 className="flex-col mt-4 px-1 text-[#A37BE1]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+                Bootstrap 5
+                <p className="text-sky-50		top-0  text-[15px]">
+                  {" "}
+                  TS código abierto desarrollado y mantenido por microsoft.Es un
+                  superconjunto de JavaScript, añade tipos estáticos y objetos
+                  basados en clases{" "}
+                  <span className="text-violet-400">cliente</span> y{" "}
+                  <span className="text-violet-400">servidor</span>
+                </p>
+              </h3>
+            </div>
+            <div
+              className={`${styles.cardSass} flex items-center  flex-col   mt-20`}
+            >
+              <div className=" flex items-center justify-center flex-col">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709427425/imagenes/sassSVG.svg"
+                  }
+                  width={60}
+                  height={50}
+                  alt="cardTY"
+                  className=" object-cover mt-5 lg:w-1/4  "
+                />
+              </div>
+              <h3 className="flex-col mt-3 px-1 text-[#D83B8B] flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+                SASS
+                <p className="text-sky-50 top-0 text-[15px]">
+                  {" "}
+                  TS código abierto desarrollado y mantenido por microsoft.Es un
+                  superconjunto de JavaScript, añade tipos estáticos y objetos
+                  basados en clases{" "}
+                  <span className="text-pink-300">cliente</span> y{" "}
+                  <span className="text-pink-300">servidor</span>
+                </p>
+              </h3>
+            </div>
+            <div
+              className={`${styles.cardReact} flex items-center  flex-col  mx-10 mt-20`}
+            >
+              <div className=" flex items-center justify-center flex-col">
+                <Image
+                  src={
+                    "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709427681/imagenes/reactSVG.svg"
+                  }
+                  width={60}
+                  height={50}
+                  alt="cardTY"
+                  className=" object-cover mt-5 lg:w-1/4  "
+                />
+              </div>
+              <h3 className="flex-col mt-4 px-1 text-[#61DAFB]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+                React
+                <p className="text-sky-50	top-0 text-[15px]">
+                  {" "}
+                  TS código abierto desarrollado y mantenido por microsoft.Es un
+                  superconjunto de JavaScript, añade tipos estáticos y objetos
+                  basados en clases{" "}
+                  <span className="text-sky-200	">cliente</span> y{" "}
+                  <span className="text-sky-200	">servidor</span>
+                </p>
+              </h3>
+            </div>
           </div>
-          <h3 className="flex-col mt-4 px-1 text-[#A37BE1]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
-            Bootstrap 5
-            <p className="text-sky-50		top-0  text-[15px]">
-              {" "}
-              TS código abierto desarrollado y mantenido por microsoft.Es un
-              superconjunto de JavaScript, añade tipos estáticos y objetos
-              basados en clases <span className="text-violet-400">
-                cliente
-              </span>{" "}
-              y <span className="text-violet-400">servidor</span>
-            </p>
-          </h3>
-        </div>
-        <div
-          className={`${styles.cardSass} flex items-center  flex-col mx-20  mt-20`}
-        >
-          <div className=" flex items-center justify-center flex-col">
-            <Image
-              src={
-                "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709427425/imagenes/sassSVG.svg"
-              }
-              width={60}
-              height={50}
-              alt="cardTY"
-              className=" object-cover mt-5 lg:w-1/4  "
-            />
-          </div>
-          <h3 className="flex-col mt-3 px-1 text-[#D83B8B] flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
-            SASS
-            <p className="text-sky-50 top-0 text-[15px]">
-              {" "}
-              TS código abierto desarrollado y mantenido por microsoft.Es un
-              superconjunto de JavaScript, añade tipos estáticos y objetos
-              basados en clases <span className="text-pink-300">
-                cliente
-              </span> y <span className="text-pink-300">servidor</span>
-            </p>
-          </h3>
-        </div>
-        <div
-          className={`${styles.cardReact} flex items-center  flex-col mx-20  mt-20`}
-        >
-          <div className=" flex items-center justify-center flex-col">
-            <Image
-              src={
-                "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709427681/imagenes/reactSVG.svg"
-              }
-              width={60}
-              height={50}
-              alt="cardTY"
-              className=" object-cover mt-5 lg:w-1/4  "
-            />
-          </div>
-          <h3 className="flex-col mt-4 px-1 text-[#61DAFB]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
-            React
-            <p className="text-sky-50	top-0 text-[15px]">
-              {" "}
-              TS código abierto desarrollado y mantenido por microsoft.Es un
-              superconjunto de JavaScript, añade tipos estáticos y objetos
-              basados en clases <span className="text-sky-200	">
-                cliente
-              </span> y <span className="text-sky-200	">servidor</span>
-            </p>
-          </h3>
         </div>
       </div>
       {/**Tools */}
-      <div className=" min-h-screen w-screen relative bg-gradient-to-b from-[#0E1118] to-gray-950">
-        <Image
-          src={
-            "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709402129/imagenes/HerramientasSVG.svg"
-          }
-          width={900}
-          height={500}
-          alt="image-He"
-          className="object-cover w-2/3"
-        />
-        <div className="  flex items-center justify-center flex-col lg:flex-row ">
+      <div className="w-screen relative bg-gradient-to-b from-[#0E1118] to-gray-950">
+        <div className=" absolute right-0 ">
+          <Image
+            src={
+              "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709572214/imagenes/toolsSVG.svg"
+            }
+            width={600}
+            height={200}
+            alt="image-arrow2"
+            className="object-cover mt-10"
+          />
+        </div>
+
+        <div className="flex items-center justify-center flex-col lg:flex-row ">
           <div
-            className={`${styles.cardTypescript}  flex items-center  flex-col mx-20  mt-10`}
+            className={`${styles.cardNode}  flex items-center  flex-col  lg:mb-20 mt-40`}
           >
             <div className=" flex items-center justify-center ">
               <Image
                 src={
-                  "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709393613/imagenes/typescriptSVG.svg"
+                  "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709571649/imagenes/nodeSVG.svg"
                 }
-                width={60}
+                width={70}
                 height={50}
                 alt="cardTY"
                 className=" object-cover mt-5 lg:w-1/3  "
               />
             </div>
-            <h3 className="flex-col px-1 text-sky-100	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
-              Typescript
+            <h3 className="flex-col px-1 mt-4 text-[#6fa560]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+              node.js
               <p className="text-sky-50	top-0 text-[15px]">
                 {" "}
                 TS código abierto desarrollado y mantenido por microsoft.Es un
                 superconjunto de JavaScript, añade tipos estáticos y objetos
-                basados en clases <span className="text-sky-200	">
+                basados en clases <span className="text-lime-400		">
                   cliente
                 </span>{" "}
-                y <span className="text-sky-200	">servidor</span>
+                y <span className="text-lime-400		">servidor</span>
               </p>
             </h3>
           </div>
           <div
-            className={`${styles.cardTypescript} flex items-center  flex-col mx-20  mt-20`}
+            className={`${styles.cardMongo} flex items-center  flex-col mx-10 lg:mb-20 lg:mt-40 mt-20`}
           >
             <div className="flex items-center justify-center flex-col lg:flex-row">
               <Image
                 src={
-                  "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709393613/imagenes/typescriptSVG.svg"
+                  "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709572553/imagenes/mongoDBSVG.svg"
                 }
-                width={60}
+                width={40}
                 height={50}
                 alt="cardTY"
                 className=" object-cover mt-5 lg:w-1/3  "
               />
             </div>
-            <h3 className="flex-col px-1 text-sky-100	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
-              Typescript
+            <h3 className="flex-col px-1 text-[#07AC4F]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+              MongoDB
               <p className="text-sky-50	top-0 text-[15px]">
                 {" "}
                 TS código abierto desarrollado y mantenido por microsoft.Es un
                 superconjunto de JavaScript, añade tipos estáticos y objetos
-                basados en clases <span className="text-sky-200	">
-                  cliente
-                </span>{" "}
-                y <span className="text-sky-200	">servidor</span>
+                basados en clases{" "}
+                <span className="text-green-400		">cliente</span> y{" "}
+                <span className="text-green-400		">servidor</span>
               </p>
             </h3>
           </div>
           <div
-            className={`${styles.cardTypescript} flex items-center  flex-col mx-20  mt-20`}
+            className={`${styles.cardPostgre} flex items-center  flex-col lg:mb-20 lg:mt-40 mt-20`}
           >
             <div className=" flex items-center justify-center flex-col">
               <Image
                 src={
-                  "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709393613/imagenes/typescriptSVG.svg"
+                  "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709573611/imagenes/postgreSQL.svg"
                 }
                 width={60}
                 height={50}
@@ -378,26 +387,26 @@ export default function Skills() {
                 className=" object-cover mt-5 lg:w-1/3  "
               />
             </div>
-            <h3 className="flex-col px-1 text-sky-100	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
-              Typescript
+            <h3 className="flex-col px-1 text-[#6093bb]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+              PostgreSQL
               <p className="text-sky-50	top-0 text-[15px]">
                 {" "}
                 TS código abierto desarrollado y mantenido por microsoft.Es un
                 superconjunto de JavaScript, añade tipos estáticos y objetos
-                basados en clases <span className="text-sky-200	">
+                basados en clases <span className="text-sky-400		">
                   cliente
                 </span>{" "}
-                y <span className="text-sky-200	">servidor</span>
+                y <span className="text-sky-400		">servidor</span>
               </p>
             </h3>
           </div>
           <div
-            className={`${styles.cardTypescript} flex items-center flex-col mx-20  mt-20`}
+            className={`${styles.cardFigma} flex items-center flex-col mx-10 mb-20 lg:mt-40 my-20`}
           >
             <div className="flex items-center justify-center flex-col ">
               <Image
                 src={
-                  "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709393613/imagenes/typescriptSVG.svg"
+                  "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709573950/imagenes/figmaSVG.svg"
                 }
                 width={60}
                 height={50}
@@ -406,7 +415,7 @@ export default function Skills() {
               />
             </div>
             <h3 className="flex-col px-1 text-sky-100	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
-              Typescript
+              Figma
               <p className="text-sky-50	top-0 text-[15px]">
                 {" "}
                 TS código abierto desarrollado y mantenido por microsoft.Es un
