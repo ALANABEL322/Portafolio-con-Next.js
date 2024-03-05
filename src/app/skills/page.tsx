@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <div className="h-screen w-screen relative ">
       <h1
-        className={`${styles.skills} text-slate-50 md:mb-[100px] mb-[80px] text-center xs:text-[30px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[240px] z-40 relative`}
+        className={`${styles.skills} text-slate-50 md:mb-[100px] mb-[80px] text-center text-[100px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[240px] z-40 relative`}
       >
         Skills
       </h1>
@@ -20,23 +20,23 @@ export default function Skills() {
           width={200}
           height={200}
           alt="line"
-          className="w-full h-full object-cover animate__animated animate__fadeInRight"
-        />
-      </div>
-      <div className="container">
-        <Image
-          src={
-            "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709597548/imagenes/p-languagesSVG.svg"
-          }
-          width={700}
-          height={500}
-          alt="arrow"
-          className="object-cover animate__animated animate__fadeInRight w-5/6"
+          className="w-full h-full object-cover "
         />
       </div>
       {/**programmingLenguages */}
-      <div className="flex content-evenly items-center justify-center lg:flex-row md:flex-row flex-col mt-10">
-        <div className={`${styles.cardJS} flex items-center  flex-col mt-10`}>
+      <div className="flex w-screen relative items-center justify-center  lg:flex-row md:flex-row flex-col mt-10 bg-gradient-to-b from-[#0c0c0e] ">
+        <div className="container absolute left-0 top-0">
+          <Image
+            src={
+              "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709597548/imagenes/p-languagesSVG.svg"
+            }
+            width={700}
+            height={500}
+            alt="arrow"
+            className="object-cover w-5/6"
+          />
+        </div>
+        <div className={`${styles.cardJS} flex items-center  flex-col mt-40`}>
           <div className=" flex items-center justify-center flex-col">
             <Image
               src={
@@ -63,7 +63,7 @@ export default function Skills() {
           </h3>
         </div>
         <div
-          className={`${styles.cardTypescript} flex items-center flex-col mx-20 mt-10`}
+          className={`${styles.cardTypescript} flex items-center flex-col mx-20 mt-40`}
         >
           <div className="flex items-center justify-center flex-col">
             <Image
@@ -90,8 +90,8 @@ export default function Skills() {
         </div>
       </div>
       {/**Frameworks */}
-      <div className="w-screen relative bg-gradient-to-b from-[#0c0c0e] to-slate-800 mt-20">
-        <div className=" absolute right-0">
+      <div className="w-screen relative  mt-20 bg-gradient-to-b from-[#0c0c0e] to-gray-700">
+        <div className="absolute right-0">
           <Image
             src={
               "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709597316/imagenes/frameworksSVG.svg"
@@ -105,7 +105,7 @@ export default function Skills() {
         <div className=" flex flex-col items-center justify-center ">
           <div className="container flex items-center justify-center mt-10 flex-col lg:flex-row">
             <div
-              className={`${styles.cardexpress} flex items-center  flex-col mx-20  mt-20 `}
+              className={`${styles.cardexpress} flex items-center  flex-col mx-20 mt-20`}
             >
               <div className=" flex items-center justify-center flex-col">
                 <Image
@@ -115,7 +115,7 @@ export default function Skills() {
                   width={100}
                   height={100}
                   alt="cardTY"
-                  className=" object-cover mt-8 lg:w-1/2  "
+                  className="object-cover mt-8 lg:w-1/2  "
                 />
               </div>
               <h3 className="flex-col px-1 text-slate-50	mt-2 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[15px]">
@@ -169,7 +169,7 @@ export default function Skills() {
                   width={60}
                   height={50}
                   alt="cardTY"
-                  className=" object-cover mt-5 lg:w-1/4  "
+                  className="object-cover mt-5 lg:w-1/4  "
                 />
               </div>
               <h3 className="flex-col mt-4 px-1 text-slate-50 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
@@ -188,7 +188,7 @@ export default function Skills() {
         </div>
       </div>
       {/**la mitad de tarjetas */}
-      <div className=" w-screen   relative bg-gradient-to-b from-[#1E293A] to-[#0E1118]">
+      <div className=" w-screen relative bg-gradient-to-b from-[#374151] to-gray-800">
         <div className="absolute left-0 mt-10">
           <Image
             src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709426659/imagenes/Preprocessors%20and%20libraries%20SVG.svg"
@@ -310,7 +310,7 @@ export default function Skills() {
         </div>
       </div>
       {/**Tools */}
-      <div className="w-screen relative bg-gradient-to-b from-[#0E1118] to-gray-950">
+      <div className="w-screen relative bg-gradient-to-b from-[#202A38] to-gray-900">
         <div className=" absolute right-0 ">
           <Image
             src={
@@ -433,6 +433,56 @@ export default function Skills() {
               </p>
             </h3>
           </div>
+        </div>
+      </div>
+      <div className="w-screen min-h-screen bg-gradient-to-b from-[#121928] to-gray-950 flex flex-col items-center justify-center truncate">
+        <h1
+          className={`${styles.softSkills} truncate text-sky-50 text-center container text-6xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl mb-20`}
+        >
+          Soft Skills
+        </h1>
+        <div className="container w-full  text-balance h-full list-outside leading-relaxed flex justify-center pr-10">
+          <ul className="list-disc text-sky-50 text-center ml-10">
+            <li className="mb-10 text-left">
+              <span className="text-[#20CBE5]">Comunicación efectiva:</span>{" "}
+              Tengo la capacidad para transmitir ideas y mensajes de manera
+              clara y comprensible tanto verbalmente como por escrito, y para
+              escuchar activamente a los demás.
+            </li>
+            <li className="mb-10 text-left">
+              <span className="text-[#20CBE5]">Teamwork:</span> Ability to
+              collaborate and work effectively with others, sharing
+              responsibilities, ideas and effectively with others, sharing
+              responsibilities, ideas and resources to achieve common resources
+              to achieve common goals.
+            </li>
+            <li className="mb-10 text-left">
+              <span className="text-[#20CBE5]">Problem solving:</span> Ability
+              to identify, analyze and address problems efficiently and
+              creatively, using analyze and address problems efficiently and
+              creatively, using available available resources to find effective
+              solutions.
+            </li>
+            <li className="mb-10 text-left">
+              <span className="text-[#20CBE5]"> Adaptability:</span> Flexibility
+              to adjust and face changes in the work environment or new
+              situations changes in the work environment or new situations
+              quickly and effectively. effective manner.
+            </li>
+            <li className="mb-10 text-left">
+              <span className="text-[#20CBE5]"> Empathy:</span> Ability to
+              understand and share the feelings, thoughts and experiences of
+              others, and experiences of others, as well as to show compassion
+              and empathy in social interactions. compassion and empathy in
+              social interactions.
+            </li>
+            <li className="mb-10 text-left">
+              <span className="text-[#20CBE5]"> Time management:</span> Ability
+              to prioritize tasks, establish deadlines and efficiently and
+              efficiently manage available time to achieve objectives in a
+              timely manner. achieve objectives in a timely manner.
+            </li>
+          </ul>
         </div>
       </div>
       <Footer />
