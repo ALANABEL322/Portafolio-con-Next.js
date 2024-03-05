@@ -1,5 +1,9 @@
 .skills {
-  -webkit-text-stroke: 2px #fff;
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+}
+.softSkills {
+  -webkit-text-stroke: 1px #fff;
   color: transparent;
 }
 .line {
