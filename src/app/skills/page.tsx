@@ -28,7 +28,7 @@ export default function Skills() {
         <div className="container absolute left-0 top-0">
           <Image
             src={
-              "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709750905/imagenes/lp.svg"
+              "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709750905/imagenes/lenguajes%20de%20programacion%20flecha.svg"
             }
             width={600}
             height={200}

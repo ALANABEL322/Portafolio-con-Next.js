@@ -15,7 +15,7 @@ const Footer = () => {
         <aside className="items-center grid justify-items-start place-content-start grid-flow-col">
           <Link className={`${styles.logo}`} href="/">
             <Image
-              src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1708019562/imagenes/nbrk7j4dwj3e40ojk26w.png"
+              src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709754260/imagenes/logo%20SVG.svg"
               alt="logo"
               width={100}
               height={100}
