@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         {/**pantalla xl */}
         <nav
-          className={`${styles.icon} px-5   grid-flow-col gap-4 md:place-self-center md:justify-self-end`}
+          className={`${styles.icon} px-5 grid-flow-col gap-4 md:place-self-center md:justify-self-end`}
         >
           <a
             href="https://github.com/ALANABEL322"
