@@ -23,13 +23,12 @@ export default function Home() {
 
     const scrambleText = "building amazing thing .";
 
-    // Animación de texto de GSAP
     const tl = gsap.timeline({
       defaults: { duration: 2, ease: "none" },
     });
 
     tl.to(`.${styles.scramble}`, {
-      text: scrambleText,
+      text: { value: scrambleText, padSpace: true },
       ease: "none",
       onUpdate: () => {
         const scrambleElement = container.querySelector(
@@ -38,7 +37,7 @@ export default function Home() {
         if (scrambleElement) {
           scrambleElement.style.color = "#22d3ee";
           scrambleElement.classList.add(styles["brightness-200"]);
-          scrambleElement.style.fontSize = "2vw";
+          scrambleElement.style.fontSize = "3vw";
         }
       },
     });
@@ -69,7 +68,7 @@ export default function Home() {
     <div>
       <main className="flex flex-col justify-between">
         <div className="mt-6">
-          <div className="mt-6">
+          <div className="">
             <div className="container hidden lg:block">
               <video className={styles.heroVideo} autoPlay muted loop>
                 <source
@@ -94,28 +93,34 @@ export default function Home() {
               } flex items-center justify-center h-96 flex-col`}
             >
               <div className={`${styles.herocopy} text-center`}>
-                <h1
-                  className={`${styles.herocopyh1} text-8xl mb-4 leading-snug`}
-                >
-                  <span className={`highlight-word ${styles.word}`}>Alan</span>{" "}
-                  <span className={`highlight-word ${styles.word}`}>Abel</span>{" "}
-                  <span className={`highlight-word ${styles.word}`}>
+                <h1 className={`${styles.herocopyh1} text-9xl  leading-snug`}>
+                  <span className={`highlight-word lg:text-9xl ${styles.word}`}>
+                    Alan
+                  </span>{" "}
+                  <span
+                    className={`highlight-word  lg:text-9xl ${styles.word}`}
+                  >
+                    Abel
+                  </span>{" "}
+                  <span
+                    className={`highlight-word  lg:text-9xl ${styles.word}`}
+                  >
                     Pereyra
                   </span>
                 </h1>
               </div>
               <h2
-                className={`text-gray-300 text-center font-bold opacity-50  sm:text-4xl md:text-6xl lg:text-6xl shadow-lg shadow-cyan-500/20${
+                className={`text-gray-300 text-center font-bold opacity-50 text-[20px] sm:text-5xl md:text-6xl lg:text-8xl shadow-lg shadow-cyan-500/20${
                   isHovered ? styles.flipText : ""
                 }`}
               >
                 Full Stack Developer
               </h2>
-              <div className={`container mt-6 ${styles.demoContainer}`}>
+              <div className={`container mt-4 ${styles.demoContainer}`}>
                 <div
-                  className={`demo flex-col  flex items-center justify-center mt-1 ${styles.textBlock}`}
+                  className={`demo flex-col flex items-center justify-center mt-1 ${styles.textBlock}`}
                 >
-                  <div className={`${styles.scramble} sm:text-4xl`}></div>
+                  <div className={`${styles.scramble} text-4xl`}></div>
                 </div>
               </div>
             </div>
