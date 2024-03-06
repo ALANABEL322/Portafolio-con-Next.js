@@ -135,24 +135,13 @@ export default function About() {
           </h2>
         </div>
       </div>
-      {/* <div className={`hidden xl:block top-[-280px] ${styles.backgroundImage}`}>
-        <Image
-          src={
-            "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709755115/imagenes/background%20eclipse%20SVG.svg"
-          }
-          width={2000}
-          height={2000}
-          alt="background"
-          className="w-full h-full object-cover animate__animated animate__fadeInRight z-40"
-        />
-      </div> */}
-
       {/* Gradiente entre la sección y el texto */}
-
       <div
         className={`${styles.sectionAbout} w-screen md:h-screen md:max-h-screen max-w-full flex flex-col items-center bg-gradient-to-b from-[#0c0c0e] to-[#0E1118] z-30`}
       >
-        <h1 className="text-gray-300 pb-8 mt-30 font-bold  xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-7xl z-30">
+        <h1
+          className={`${styles.hobbies} text-gray-300 pb-8 mt-30 font-bold  text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl z-30`}
+        >
           hobbies
         </h1>
         {/**hobbie horizontal1 */}
@@ -276,7 +265,9 @@ export default function About() {
       </div>
       {/**section aboutme */}
       <div className="w-screen lg:min-h-screen xl:min-h-screen max-w-full flex flex-col items-center justify-center bg-gradient-to-b from-[#0E1118] to-gray-950 lg:overflow-hidden">
-        <h1 className="text-center text-gray-300 mt-20 md:mb-[50px] font-bold xs:text-7xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-7xl">
+        <h1
+          className={`${styles.aboutMe} text-center text-gray-300 mt-20 md:mb-[50px] font-bold text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-9xl`}
+        >
           About me
         </h1>
 

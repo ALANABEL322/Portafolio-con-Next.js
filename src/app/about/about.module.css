@@ -5,6 +5,12 @@
   --background-color: #6b1280;
 }
 
+.hobbies,
+.aboutMe {
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+}
+
 .backgroundImage {
   position: absolute;
   right: 0;
