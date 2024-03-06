@@ -444,10 +444,10 @@ export default function Skills() {
         <div className="container w-full  text-balance h-full list-outside leading-relaxed flex justify-center pr-10">
           <ul className="list-disc text-sky-50 text-center ml-10">
             <li className="mb-10 text-left">
-              <span className="text-[#20CBE5]">Comunicación efectiva:</span>{" "}
-              Tengo la capacidad para transmitir ideas y mensajes de manera
-              clara y comprensible tanto verbalmente como por escrito, y para
-              escuchar activamente a los demás.
+              <span className="text-[#20CBE5]">Effective communication:</span> I
+              have the ability to convey ideas and messages clearly and
+              understandably both verbally and in writing, and to listen
+              actively to others.
             </li>
             <li className="mb-10 text-left">
               <span className="text-[#20CBE5]">Teamwork:</span> Ability to
