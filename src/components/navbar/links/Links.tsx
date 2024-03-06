@@ -1,15 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import styles from "./Links.module.css"
-
-
+import styles from "./Links.module.css";
 
 const Links = () => {
   const links = [
-    {
-      title: "Home",
-      path: "/",
-    },
     {
       title: "About",
       path: "/about",
@@ -19,19 +13,23 @@ const Links = () => {
       path: "/proyects",
     },
     {
-      title: "contact",
-      path: "/contact",
-    },
-    {
       title: "skills",
       path: "/skills",
+    },
+    {
+      title: "contact",
+      path: "/contact",
     },
   ];
 
   return (
     <div className={`${styles.links}`}>
       {links.map((link) => (
-        <Link className={`${styles.enlaces} brightness-200`} href={link.path} key={link.title}>
+        <Link
+          className={`${styles.enlaces} brightness-200 mr-2`}
+          href={link.path}
+          key={link.title}
+        >
           {link.title}
         </Link>
       ))}
