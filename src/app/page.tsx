@@ -116,9 +116,9 @@ export default function Home() {
               >
                 Full Stack Developer
               </h2>
-              <div className={`container mt-4 ${styles.demoContainer}`}>
+              <div className={`container lg:mt-4 ${styles.demoContainer}`}>
                 <div
-                  className={`demo flex-col flex items-center justify-center mt-1 ${styles.textBlock}`}
+                  className={`demo flex-col flex items-center justify-center lg:mt-1 ${styles.textBlock}`}
                 >
                   <div className={`${styles.scramble} text-4xl`}></div>
                 </div>
