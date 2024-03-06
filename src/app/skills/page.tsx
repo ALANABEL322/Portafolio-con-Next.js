@@ -28,12 +28,12 @@ export default function Skills() {
         <div className="container absolute left-0 top-0">
           <Image
             src={
-              "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709597548/imagenes/p-languagesSVG.svg"
+              "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709750905/imagenes/lp.svg"
             }
-            width={700}
-            height={500}
+            width={600}
+            height={200}
             alt="arrow"
-            className="object-cover w-5/6"
+            className="object-cover  "
           />
         </div>
         <div className={`${styles.cardJS} flex items-center  flex-col mt-40`}>
@@ -191,11 +191,11 @@ export default function Skills() {
       <div className=" w-screen relative bg-gradient-to-b from-[#374151] to-gray-800">
         <div className="absolute left-0 mt-10">
           <Image
-            src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709426659/imagenes/Preprocessors%20and%20libraries%20SVG.svg"
-            width={500}
+            src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709751161/imagenes/P%20AND%20L.svg"
+            width={900}
             height={500}
             alt="arrowPRE"
-            className=" object-cover w-5/6 h-full"
+            className=" object-cover w-5/6"
           />
         </div>
         <div className=" flex flex-col items-center justify-center ">

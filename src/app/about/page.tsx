@@ -150,13 +150,13 @@ export default function About() {
       {/* Gradiente entre la sección y el texto */}
 
       <div
-        className={`${styles.sectionAbout} w-screen md:h-screen md:max-h-screen max-w-full flex flex-col items-center bg-gradient-to-b from-[#0c0c0e]	 to-[#0E1118] z-30`}
+        className={`${styles.sectionAbout} w-screen md:h-screen md:max-h-screen max-w-full flex flex-col items-center bg-gradient-to-b from-[#0c0c0e] to-[#0E1118] z-30`}
       >
         <h1 className="text-gray-300 pb-8 mt-30 font-bold  xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-7xl z-30">
           hobbies
         </h1>
         {/**hobbie horizontal1 */}
-        <div className="container w-full  flex items-center justify-end  z-50">
+        <div className="container w-full flex items-center justify-end z-50">
           <Image
             src={
               "https://res.cloudinary.com/dn5ltihzv/image/upload/v1708721592/imagenes/violinImage.svg"
@@ -169,13 +169,13 @@ export default function About() {
           <div
             className={`w-1/6 lg:w-1/12 h-full hidden md:block lg:block xl:block mr-4 mt-20 ${styles.verticalhr}`}
           ></div>
-          <p className="text-balance w-5/6 pl-2 hidden md:block lg:block xl:block text-gray-300 font-semibold mt-20 xs:text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
+          <p className=" w-5/6 pl-2 hidden md:block lg:block xl:block text-gray-300 font-semibold mt-20 xs:text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
             I practice violin 3 times a week, theory and practice. I like music
             related to this instrument.
           </p>
         </div>
         {/**HOBBII vertical1 */}
-        <div className="container w-1/2 h-[24rem] flex flex-col justify-center items-center mt-4">
+        <div className=" container w-1/2 h-[24rem] flex flex-col justify-center items-center mt-4">
           <Image
             src={
               "https://res.cloudinary.com/dn5ltihzv/image/upload/v1708721592/imagenes/violinImage.svg"
@@ -188,7 +188,7 @@ export default function About() {
           <div
             className={`w-1/6 lg:w-1/12 h-2 bg-gray-300 mb-2 md:hidden lg:hidden xl:hidden ${styles.horizontalhr}`}
           ></div>
-          <p className="text-balance pl-4 md:hidden lg:hidden xl:hidden md:w-5/6  text-gray-300 font-semibold mt-2 md:text-5xl">
+          <p className=" pl-4 md:hidden lg:hidden xl:hidden md:w-5/6  text-gray-300 font-semibold mt-2 md:text-5xl">
             I practice violin 3 times a week, theory and practice. I like music
             related to this instrument.
           </p>
@@ -207,7 +207,7 @@ export default function About() {
           <div
             className={`w-1/6 lg:w-1/12 h-full hidden md:block lg:block xl:block mr-4 ${styles.verticalhr}`}
           ></div>
-          <p className="text-balance  w-5/6 pl-2 hidden md:block lg:block xl:block text-gray-300 font-semibold  xs:text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
+          <p className=" w-5/6 pl-2 hidden md:block lg:block xl:block text-gray-300 font-semibold  xs:text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
             when we get together with my friends we play video games, we have a
             lot of fun and have a good time.
           </p>
@@ -227,7 +227,7 @@ export default function About() {
             className={`w-1/6 lg:w-1/12 h-2 bg-gray-300  md:hidden lg:hidden xl:hidden ${styles.horizontalhr}`}
           ></div>
           <div className=" ">
-            <p className="text-balance pl-4 md:hidden lg:hidden xl:hidden md:w-5/6  text-gray-300 font-semibold mt-2 md:text-5xl">
+            <p className=" pl-4 md:hidden lg:hidden xl:hidden md:w-5/6  text-gray-300 font-semibold mt-2 md:text-5xl">
               when we get together with my friends we play video games, we have
               a lot of fun and have a good time.
             </p>
@@ -247,7 +247,7 @@ export default function About() {
           <div
             className={`w-1/6 lg:w-1/12 h-full hidden md:block lg:block xl:block mr-4 ${styles.verticalhr}`}
           ></div>
-          <p className="text-balance  w-5/6 pl-2 hidden md:block lg:block xl:block text-gray-300 font-semibold  xs:text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
+          <p className=" w-5/6 pl-2 hidden md:block lg:block xl:block text-gray-300 font-semibold  xs:text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
             I go out to exercise, especially jogging 5 times a week, I like it a
             lot because it helps me to clear my mind.
           </p>
@@ -267,7 +267,7 @@ export default function About() {
             className={`w-1/6 lg:w-1/12 h-2 bg-gray-300  md:hidden lg:hidden xl:hidden ${styles.horizontalhr}`}
           ></div>
           <div className=" ">
-            <p className="text-balance pl-4 md:hidden lg:hidden xl:hidden md:w-5/6  text-gray-300 font-semibold mt-2 md:text-5xl">
+            <p className=" pl-4 md:hidden lg:hidden xl:hidden md:w-5/6  text-gray-300 font-semibold mt-2 md:text-5xl">
               I go out to exercise, especially jogging 5 times a week, I like it
               a lot because it helps me to clear my mind.
             </p>
@@ -319,10 +319,12 @@ export default function About() {
         {/* Contenedor de texto en pantallas pequeñas */}
         <div className="visible sm:visible md:invisible lg:invisible xl:invisible text-container">
           <p className="text-gray-300 lg:w-5/6 sm:pr-7 pl-7 flex justify-center items-center lg:block xl:block font-semibold lg:text-4xl xl:text-4xl mb-[40px] ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim
-            possimus a nesciunt dolorum sint quod, doloremque excepturi quaerat
-            mollitia doloribus officia ex similique placeat tempora aliquid
-            aliquam tenetur commodi.
+            I hope you have gotten to know me a little better but let me tell
+            you more. I am very enthusiastic about what I do, I like merit and
+            effort always, if I come across something I don't know I make an
+            effort to learn it and practice it, I am very perseverant in
+            learning new things. I like spending time with my family, drinking
+            mates, coffee and eating spaghetti.
           </p>
         </div>
       </div>
