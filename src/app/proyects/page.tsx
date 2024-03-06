@@ -48,10 +48,10 @@ export default function Proyectos() {
             <p className=" text-[#22d3ee] text-1xl md:text-1xl lg:text-2xl xl:text-2xl mb-3 mr-11">
               featuted project
             </p>
-            <p className="text-slate-50 xs:text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl mb-3 mr-10">
+            <p className="text-slate-50 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl mb-3 mr-10">
               ClinicalTechsrl
             </p>
-            <div className="p-5  text-slate-50 xs:text-1xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl mr-6 ml-2 border rounded-md border-zinc-400 bg-gray-900">
+            <div className="p-5  text-slate-50 xs:text-1xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl mr-5 ml-2 border rounded-md border-zinc-400 bg-gray-900">
               As a developer on the ClinicalTech team, I had the opportunity to
               contribute to both the frontend and backend development of this
               exciting ecommerce platform specializing in medical supplies.
