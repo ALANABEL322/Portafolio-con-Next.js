@@ -170,8 +170,8 @@ export default function About() {
             className={`w-1/6 lg:w-1/12 h-full hidden md:block lg:block xl:block mr-4 mt-20 ${styles.verticalhr}`}
           ></div>
           <p className="text-balance w-5/6 pl-2 hidden md:block lg:block xl:block text-gray-300 font-semibold mt-20 xs:text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
-            aspernatur iure fuga voluptas repellat asperiores voluptatum
+            I practice violin 3 times a week, theory and practice. I like music
+            related to this instrument.
           </p>
         </div>
         {/**HOBBII vertical1 */}
@@ -189,8 +189,8 @@ export default function About() {
             className={`w-1/6 lg:w-1/12 h-2 bg-gray-300 mb-2 md:hidden lg:hidden xl:hidden ${styles.horizontalhr}`}
           ></div>
           <p className="text-balance pl-4 md:hidden lg:hidden xl:hidden md:w-5/6  text-gray-300 font-semibold mt-2 md:text-5xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
-            aspernatur iure fuga voluptas repellat asperiores voluptatum
+            I practice violin 3 times a week, theory and practice. I like music
+            related to this instrument.
           </p>
         </div>
         {/***hobie2 horizontal */}
@@ -208,8 +208,8 @@ export default function About() {
             className={`w-1/6 lg:w-1/12 h-full hidden md:block lg:block xl:block mr-4 ${styles.verticalhr}`}
           ></div>
           <p className="text-balance  w-5/6 pl-2 hidden md:block lg:block xl:block text-gray-300 font-semibold  xs:text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
-            aspernatur iure fuga voluptas repellat asperiores voluptatum
+            when we get together with my friends we play video games, we have a
+            lot of fun and have a good time.
           </p>
         </div>
         {/**HOBBII 2 vertical*/}
@@ -228,8 +228,8 @@ export default function About() {
           ></div>
           <div className=" ">
             <p className="text-balance pl-4 md:hidden lg:hidden xl:hidden md:w-5/6  text-gray-300 font-semibold mt-2 md:text-5xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
-              aspernatur iure fuga voluptas repellat asperiores voluptatum
+              when we get together with my friends we play video games, we have
+              a lot of fun and have a good time.
             </p>
           </div>
         </div>
@@ -248,8 +248,8 @@ export default function About() {
             className={`w-1/6 lg:w-1/12 h-full hidden md:block lg:block xl:block mr-4 ${styles.verticalhr}`}
           ></div>
           <p className="text-balance  w-5/6 pl-2 hidden md:block lg:block xl:block text-gray-300 font-semibold  xs:text-1xl sm:text-2xl md:text-3xl lg:text-4xl ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
-            aspernatur iure fuga voluptas repellat asperiores voluptatum
+            I go out to exercise, especially jogging 5 times a week, I like it a
+            lot because it helps me to clear my mind.
           </p>
         </div>
         {/**HOBBII 3 vertical*/}
@@ -268,8 +268,8 @@ export default function About() {
           ></div>
           <div className=" ">
             <p className="text-balance pl-4 md:hidden lg:hidden xl:hidden md:w-5/6  text-gray-300 font-semibold mt-2 md:text-5xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in
-              aspernatur iure fuga voluptas repellat asperiores voluptatum
+              I go out to exercise, especially jogging 5 times a week, I like it
+              a lot because it helps me to clear my mind.
             </p>
           </div>
         </div>
@@ -284,10 +284,12 @@ export default function About() {
           {/* Contenedor de texto */}
           <div className="text-container hidden md:w-5/6 md:block lg:block xl:block pr-6 lg:p-0 xl:p-0">
             <p className="text-gray-300 lg:w-5/6 ps-8 flex justify-center items-center lg:block xl:block font-semibold xs:text-2xl sm:text-3xl md:text-2xl lg:text-4xl xl:text-4xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim
-              possimus a nesciunt dolorum sint quod, doloremque excepturi
-              quaerat mollitia doloribus officia ex similique placeat tempora
-              aliquid aliquam tenetur commodi.
+              I hope you have gotten to know me a little better but let me tell
+              you more. I am very enthusiastic about what I do, I like merit and
+              effort always, if I come across something I don't know I make an
+              effort to learn it and practice it, I am very perseverant in
+              learning new things. I like spending time with my family, drinking
+              mates, coffee and eating spaghetti.
             </p>
           </div>
 
