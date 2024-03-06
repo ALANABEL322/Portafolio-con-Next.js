@@ -20,7 +20,7 @@ export default function About() {
         <div className="container flex-col flex items-center">
           <div className=" w-3/5 z-50  sm:justify-center xs:justify-center">
             <Image
-              src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1708470777/imagenes/xukeaadguf1aupoceg75.png"
+              src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709754813/imagenes/imagen%20de%20perfil%20svg.svg"
               alt="profileimage1"
               width={650}
               height={650}
@@ -57,7 +57,7 @@ export default function About() {
           {/* Imagen a la izquierda */}
           <div className="w-full md:w-2/5  z-10">
             <Image
-              src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1708470777/imagenes/xukeaadguf1aupoceg75.png"
+              src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709754813/imagenes/imagen%20de%20perfil%20svg.svg"
               alt="profileimage1"
               width={650}
               height={650}
@@ -98,7 +98,7 @@ export default function About() {
         >
           <Image
             src={
-              "https://res.cloudinary.com/dn5ltihzv/image/upload/v1708470779/imagenes/x3vlpbdbhzikaykmakfp.png"
+              "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709755115/imagenes/background%20eclipse%20SVG.svg"
             }
             width={1000}
             height={1000}
@@ -135,17 +135,17 @@ export default function About() {
           </h2>
         </div>
       </div>
-      <div className={`hidden xl:block top-[-280px] ${styles.backgroundImage}`}>
+      {/* <div className={`hidden xl:block top-[-280px] ${styles.backgroundImage}`}>
         <Image
           src={
-            "https://res.cloudinary.com/dn5ltihzv/image/upload/v1708470779/imagenes/x3vlpbdbhzikaykmakfp.png"
+            "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709755115/imagenes/background%20eclipse%20SVG.svg"
           }
           width={2000}
           height={2000}
           alt="background"
           className="w-full h-full object-cover animate__animated animate__fadeInRight z-40"
         />
-      </div>
+      </div> */}
 
       {/* Gradiente entre la sección y el texto */}
 
