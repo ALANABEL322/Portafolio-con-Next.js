@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <div className="h-screen w-screen relative ">
       <h1
-        className={`${styles.skills} text-slate-50 md:mb-[100px] mb-[80px] text-center text-[100px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[240px] z-40 relative`}
+        className={`${styles.skills} text-slate-50 mt-20 md:mb-[100px] mb-[80px] text-center text-[100px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[240px] z-40 relative`}
       >
         Skills
       </h1>

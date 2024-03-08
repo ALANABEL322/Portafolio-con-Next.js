@@ -19,7 +19,7 @@ export default function Proyectos() {
       <div className="w-screen max-h-full flex flex-col items-center justify-center">
         <div className="container">
           <h1
-            className={`${styles.projects} text-slate-50 md:mb-[200px] mb-[80px] text-center text-8xl sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[240px]`}
+            className={`${styles.projects} text-slate-50 mt-20 md:mb-[200px] mb-[80px] text-center text-8xl sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[240px]`}
           >
             Projects
           </h1>

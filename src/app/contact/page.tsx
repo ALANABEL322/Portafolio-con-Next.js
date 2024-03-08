@@ -9,7 +9,7 @@ export default function Contact() {
     <div>
       <div className="w-screen min-h-screen bg-gradient-to-b from-[#0c0c0e] to-gray-950">
         <h1
-          className={`${styles.contact} text-slate-50 md:mb-[100px] mb-[80px] text-center text-[100px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[240px] relative`}
+          className={`${styles.contact} mt-20 text-slate-50 md:mb-[100px] mb-[80px] text-center text-[100px] sm:text-[80px] md:text-[120px] lg:text-[180px] xl:text-[240px] relative`}
         >
           Contact
         </h1>
@@ -21,7 +21,7 @@ export default function Contact() {
             width={800}
             height={500}
             alt="imageprofile-contact"
-            className="object-cover mb-20"
+            className="object-cover mb-20 mx-10"
           />
         </div>
         <a

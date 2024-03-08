@@ -4,10 +4,40 @@
   justify-content: space-between;
   padding: 1em;
   align-items: center;
+  z-index: 1000;
 }
 
 .logo {
   z-index: 1000;
   font-family: "Montserrat Subrayada", sans-serif;
   text-transform: uppercase;
+}
+
+.links {
+  /* display: flex; */
+  gap: 3em;
+}
+
+.enlaces {
+  position: relative;
+  z-index: 1000;
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+  pointer-events: auto;
+}
+
+.enlaces::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 1px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.enlaces:hover::after {
+  background-color: #22d3ee8c;
 }
