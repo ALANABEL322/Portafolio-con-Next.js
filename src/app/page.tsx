@@ -90,7 +90,7 @@ export default function Home() {
               ref={containerRef}
               className={`${styles.contenedor} ${
                 isHovered ? styles.myTheme : ""
-              } flex items-center justify-center h-96 flex-col`}
+              } flex items-center justify-center h-dvh flex-col`}
             >
               <div className={`${styles.herocopy} text-center`}>
                 <h1 className={`${styles.herocopyh1} text-9xl  leading-snug`}>

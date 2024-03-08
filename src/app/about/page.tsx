@@ -17,7 +17,7 @@ export default function About() {
     >
       {/**imagen al centro */}
       <div className="h-screen-[40%] w-screen md:h-screen md:max-h-screen max-w-full ">
-        <div className="container flex-col flex items-center">
+        <div className="container flex-col flex items-center mt-20">
           <div className=" w-3/5 z-50  sm:justify-center xs:justify-center">
             <Image
               src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709754813/imagenes/imagen%20de%20perfil%20svg.svg"
