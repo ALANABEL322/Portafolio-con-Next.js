@@ -2,8 +2,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1em;
   align-items: center;
+  padding: 1em;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  top: 0;
   z-index: 1000;
 }
 
@@ -14,12 +17,13 @@
 }
 
 .links {
-  /* display: flex; */
+  z-index: 5000;
   gap: 3em;
+  margin-right: auto;
+  transition: transform 0.3s ease;
 }
 
 .enlaces {
-  position: relative;
   z-index: 1000;
   text-decoration: none;
   color: antiquewhite;

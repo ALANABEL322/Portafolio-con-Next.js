@@ -17,7 +17,7 @@ const Footer = () => {
             <Image
               src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709754260/imagenes/logo%20SVG.svg"
               alt="logo"
-              width={100}
+              width={80}
               height={100}
               className="object-cover hidden sm:block md:block lg:block xl:block"
             />
