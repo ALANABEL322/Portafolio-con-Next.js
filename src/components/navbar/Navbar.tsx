@@ -1,15 +1,34 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
+const [header, setHeader] = useState(false);
+
+const scrollHeader = () => {
+  if(window.scrollY >= 20){
+    setHeader(true);
+  }else {
+    setHeader(false);
+  }
+}
+
+useEffect (() => {
+  window.addEventListener("scroll", scrollHeader);
+
+  return ()=> {
+    window.addEventListener("scroll", scrollHeader);
+  }
+}, [])
+
+
   return (
-    <div>
+    <div className={header ? "fixed w-[100%] text-[white] bg-[#020202]" : "bg-[transparent] "}>
       <nav className="w-full z-[100] fixed top-0 left-0 right-0">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div className="justify-between px-4 mx-auto md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <Link className={`${styles.logo}`} href="/">
