@@ -32,7 +32,7 @@ const Footer = () => {
             <Image
               src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709754260/imagenes/logo%20SVG.svg"
               alt="logo"
-              width={100}
+              width={80}
               height={100}
               className="object-cover sm:hidden md:hidden lg:hidden xl:hidden"
             />
