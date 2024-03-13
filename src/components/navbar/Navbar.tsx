@@ -6,27 +6,32 @@ import styles from "./Navbar.module.css";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
-const [header, setHeader] = useState(false);
+  const [header, setHeader] = useState(false);
 
-const scrollHeader = () => {
-  if(window.scrollY >= 20){
-    setHeader(true);
-  }else {
-    setHeader(false);
-  }
-}
+  const scrollHeader = () => {
+    if (window.scrollY >= 20) {
+      setHeader(true);
+    } else {
+      setHeader(false);
+    }
+  };
 
-useEffect (() => {
-  window.addEventListener("scroll", scrollHeader);
-
-  return ()=> {
+  useEffect(() => {
     window.addEventListener("scroll", scrollHeader);
-  }
-}, [])
 
+    return () => {
+      window.addEventListener("scroll", scrollHeader);
+    };
+  }, []);
 
   return (
-    <div className={header ? "fixed w-[100%] text-[white] bg-[#020202]" : "bg-[transparent] "}>
+    <div
+      className={
+        header
+          ? "fixed w-[100%] text-[white] bg-[#020202]"
+          : "bg-[transparent] "
+      }
+    >
       <nav className="w-full z-[100] fixed top-0 left-0 right-0">
         <div className="justify-between px-4 mx-auto md:items-center md:flex md:px-8">
           <div>
@@ -99,7 +104,7 @@ useEffect (() => {
                     Projects
                   </Link>
                 </li>
-                <li className="rounded-t-lg mt-2 pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  bg-slate-950/50 to-transparent md:bg-transparent">
+                <li className="rounded-t-lg pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  bg-slate-950/50 to-transparent md:bg-transparent">
                   <Link
                     href="/contact"
                     className={`${styles.enlaces} brightness-200 mr-2 `}
