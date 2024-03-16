@@ -1,4 +1,3 @@
-"use client";
 import Footer from "@/components/footer/Footer";
 import styles from "./projects.module.css";
 import Image from "next/image";
@@ -12,6 +11,12 @@ import {
 import { TbBrandTypescript } from "react-icons/tb";
 import { BiLogoMongodb } from "react-icons/bi";
 import "animate.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description: "Estas en la sección Proyectos",
+};
 
 export default function Proyectos() {
   return (

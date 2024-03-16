@@ -1,8 +1,13 @@
-"use client";
 import React from "react";
 import styles from "./Contact.module.css";
 import Footer from "@/components/footer/Footer";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Estas en la sección Contacto",
+};
 
 export default function Contact() {
   return (

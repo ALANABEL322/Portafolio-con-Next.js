@@ -1,8 +1,13 @@
-// Skills.js
 import React from "react";
 import styles from "./Skills.module.css";
 import Image from "next/image";
 import Footer from "@/components/footer/Footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Skills",
+  description: "Estas en la sección habilidades",
+};
 
 export default function Skills() {
   return (

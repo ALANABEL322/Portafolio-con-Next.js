@@ -5,7 +5,11 @@ import Navbar from "@/components/navbar/Navbar";
 const playfairdisplay = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portafolio Alan",
+  title: {
+    default: "Portafolio Alan",
+    absolute: "",
+    template: "%s - Portafolio Alan",
+  },
   description: "perfil profesional",
   icons: {
     icon: [
