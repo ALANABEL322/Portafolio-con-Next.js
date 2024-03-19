@@ -51,7 +51,7 @@ export default function Proyectos() {
 
           <div className="w-full lg:w-1/2 flex flex-col items-center sm:items-end  order-1 lg:order-2 ml-2 ">
             <p className=" text-[#22d3ee] text-1xl md:text-1xl lg:text-2xl xl:text-2xl mb-3 mr-11">
-              featuted project
+              featured project
             </p>
             <p className="text-slate-50 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl mb-3 mr-10">
               ClinicalTechsrl

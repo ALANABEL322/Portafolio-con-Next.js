@@ -56,14 +56,11 @@ export default function Skills() {
           <h3 className="flex-col mt-3 px-1 text-balance text-yellow-300 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
             Javascript
             <p className="text-yellow-100	top-0  text-[15px] ">
-              {" "}
-              JavaScript es un lenguaje de programación interpretado, dialecto
-              del estándar <span className="text-yellow-300">
-                ECMAScript.
-              </span>{" "}
-              Se define como orientado a{" "}
-              <span className="text-yellow-300">objetos,</span> ​ basado en
-              prototipos, imperativo, débilmente tipado y dinámico.{" "}
+              JavaScript is an interpreted programming language, a dialect of
+              the standard of the standard
+              <span className="text-yellow-300">ECMAScript.</span> It is defined
+              as oriented to <span className="text-yellow-300">objects,</span> ​
+              prototype-based, imperative, weakly typed and dynamic.
             </p>
           </h3>
         </div>
@@ -84,12 +81,11 @@ export default function Skills() {
           <h3 className="flex-col mt-3 px-1 text-sky-500 flex text-center items-center gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
             Typescript
             <p className="text-sky-50 top-0 text-[15px]">
-              {" "}
-              libre y de código abierto desarrollado y mantenido por Microsoft.
-              Es un superconjunto de{" "}
-              <span className="text-sky-200">JavaScript,</span> que
-              esencialmente añade tipos estáticos y objetos basados en{" "}
-              <span className="text-sky-200">clases.</span>{" "}
+              free and open source software developed and maintained by
+              Microsoft. It is a superset of
+              <span className="text-sky-200">JavaScript,</span> that essentially
+              adds static types and objects based on
+              <span className="text-sky-200">classes.</span>
             </p>
           </h3>
         </div>
@@ -126,20 +122,19 @@ export default function Skills() {
               <h3 className="flex-col px-1 text-slate-50	mt-2 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[15px]">
                 Express
                 <p className="text-sky-50	top-0 text-[15px]">
-                  {" "}
-                  Express.js o simplemente Express es un entorno de trabajo para
-                  aplicaciones web para el programario Node.js, de código
-                  abierto y con licencia MIT. Se utiliza para desarrollar
-                  aplicaciones <span className="text-gray-400">
-                    web{" "}
-                  </span> y <span className="text-gray-400">APIs.</span>{" "}
+                  Express.js or simply Express is a framework for web
+                  applications for the Node.js web applications for the Node.js
+                  open source, MIT-licensed Node.js open source and MIT
+                  licensed. It is used to develop applications
+                  <span className="text-gray-400">web </span> y
+                  <span className="text-gray-400">APIs.</span>
                 </p>
               </h3>
             </div>
             <div
               className={`${styles.cardMeteor} flex items-center  flex-col mx-20  mt-20 `}
             >
-              <div className=" flex items-center justify-center flex-col">
+              <div className="flex items-center justify-center flex-col">
                 <Image
                   src={
                     "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709423996/imagenes/meteorSVG.svg"
@@ -147,19 +142,18 @@ export default function Skills() {
                   width={60}
                   height={50}
                   alt="cardTY"
-                  className=" object-cover mt-5 lg:w-1/4  "
+                  className=" object-cover mt-5 lg:w-1/4"
                 />
               </div>
-              <h3 className="flex-col 	mt-3 px-1 text-[#df4f4f]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
+              <h3 className="flex-col 	mt-3 px-1 text-[#df4f4f]	flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
                 Meteor
-                <p className="text-sky-50	top-0  text-[15px]">
-                  {" "}
-                  Meteor, o MeteorJS, es un framework para aplicaciones web con
-                  JavaScript libre y de código abierto​ usando Node.js. Meteor
-                  facilita la creación rápida de{" "}
-                  <span className="text-rose-400	">prototipos</span> y produce
-                  código
-                  <span className="text-rose-400	"> multiplataforma.</span>{" "}
+                <p className="text-sky-50	top-0 text-[15px]">
+                  Meteor, or MeteorJS, is a framework for web applications with
+                  free and open source JavaScript using Node.js. free and open
+                  source JavaScript using Node.js. Meteor facilitates the rapid
+                  creation of <span className="text-rose-400">prototypes</span>
+                  and produces code
+                  <span className="text-rose-400">multiplatform.</span>
                 </p>
               </h3>
             </div>
@@ -180,12 +174,11 @@ export default function Skills() {
               <h3 className="flex-col mt-4 px-1 text-slate-50 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
                 Next.js
                 <p className="text-sky-50		top-0  text-[15px]">
-                  {" "}
-                  Next.js es un marco web de desarrollo{" "}
-                  <span className="text-slate-300	"> front-end</span> de React de
-                  código abierto creado por Vercel que habilita funcionalidades
-                  como la representación del lado del{" "}
-                  <span className="text-slate-300	">servidor.</span>{" "}
+                  Next.js is a web development framework.
+                  <span className="text-slate-300	"> front-end</span> React open
+                  source code created by Vercel that enables functionalities
+                  such as such as the rendering of the
+                  <span className="text-slate-300	">server.</span>
                 </p>
               </h3>
             </div>
@@ -222,13 +215,12 @@ export default function Skills() {
               <h3 className="flex-col mt-3 px-1 text-[#4DB6AC]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[16px]">
                 TailwindCSS
                 <p className="text-sky-50	top-0 text-[15px]">
-                  {" "}
-                  framework de CSS de código abierto​ para el diseño de páginas
-                  web. La principal característica de esta biblioteca es que no
-                  genera una serie de clases{" "}
-                  <span className="text-teal-300"> predefinidas</span> para
-                  <span className="text-teal-300"> elementos </span> como
-                  botones o tablas{" "}
+                  open source CSS framework for web page design. web design. The
+                  main feature of this library is that it does not generates a
+                  series of classes
+                  <span className="text-teal-300">predefined</span> for
+                  <span className="text-teal-300"> elements </span> like buttons
+                  or tables
                 </p>
               </h3>
             </div>
@@ -249,12 +241,11 @@ export default function Skills() {
               <h3 className="flex-col mt-4 px-1 text-[#A37BE1]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[16px]">
                 Bootstrap 5
                 <p className="text-sky-50		top-0  text-[15px]">
-                  {" "}
-                  Bootstrap es una biblioteca{" "}
-                  <span className="text-violet-400"> multiplataforma</span> o
-                  conjunto de herramientas de código abierto para diseño de
-                  sitios y<span className="text-violet-400"> aplicaciones</span>{" "}
-                  web.{" "}
+                  Bootstrap is a library
+                  <span className="text-violet-400"> multiplatform</span> open
+                  source toolset for site design and site design and
+                  <span className="text-violet-400"> applications</span>
+                  web.
                 </p>
               </h3>
             </div>
@@ -275,13 +266,12 @@ export default function Skills() {
               <h3 className="flex-col mt-3 px-1 text-[#D83B8B] flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[16px]">
                 SASS
                 <p className="text-sky-50 top-0 text-[15px]">
-                  {" "}
-                  Sass es un lenguaje de hoja de estilos en cascada​ Después de
-                  sus versiones iniciales, Nathan Weizenbaum y Chris Eppstein
-                  han continuado extendiendo Sass con{" "}
-                  <span className="text-pink-300">SassScript</span> , un
-                  lenguaje de <span className="text-pink-300"> script </span>{" "}
-                  simple, usado en los ficheros Sass.{" "}
+                  Sass is a cascading style sheet language. its initial
+                  versions, Nathan Weizenbaum and Chris Eppstein have continued
+                  to extend Sass with
+                  <span className="text-pink-300">SassScript</span> , a language
+                  of <span className="text-pink-300"> script </span>
+                  simple, used in Sass files.
                 </p>
               </h3>
             </div>
@@ -303,11 +293,11 @@ export default function Skills() {
                 React
                 <p className="text-sky-50	top-0 text-[15px]">
                   {" "}
-                  React es una biblioteca Javascript de código abierto diseñada
-                  para crear <span className="text-sky-200	">interfaces</span> de
-                  usuario con el objetivo de facilitar el desarrollo de
-                  aplicaciones en una <span className="text-sky-200	">sola</span>{" "}
-                  página.{" "}
+                  React is an open-source Javascript library designed to create
+                  to create <span className="text-sky-200	">interfaces</span> of
+                  to facilitate the development of applications in a
+                  applications in a <span className="text-sky-200	">only</span>{" "}
+                  Page.{" "}
                 </p>
               </h3>
             </div>
@@ -346,13 +336,12 @@ export default function Skills() {
             <h3 className="flex-col px-1 mt-3 text-[#6fa560]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[16px]">
               node.js
               <p className="text-sky-50	top-0 text-[15px]">
-                {" "}
-                Node.js es un entorno de ejecución multiplataforma, basado en el
-                lenguaje de programación{" "}
-                <span className="text-lime-400">JavaScript,</span> asíncrono,
-                con E/S de datos en una arquitectura orientada a{" "}
-                <span className="text-lime-400">eventos</span> y basado en el
-                motor V8 de Google{" "}
+                Node.js is a cross-platform runtime environment, based on the
+                Node.js programming language. programming language
+                <span className="text-lime-400">JavaScript,</span> asynchronous,
+                with data I/O in a data-oriented architecture.
+                <span className="text-lime-400">events</span> and based on the
+                Googles V8 engine
               </p>
             </h3>
           </div>
@@ -373,13 +362,12 @@ export default function Skills() {
             <h3 className="flex-col mt-3 px-1 text-[#6093bb]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
               PostgreSQL
               <p className="text-sky-50	top-0 text-[15px]">
-                {" "}
-                PostgreSQL, también llamado Postgres, es un sistema de gestión
-                de bases de datos{" "}
-                <span className="text-sky-400">relacional</span> orientado a
-                <span className="text-sky-400"> objetos</span> y de código
-                abierto, publicado bajo la licencia PostgreSQL, ​ similar a la
-                BSD o la MIT.{" "}
+                PostgreSQL, also called Postgres, is a database management
+                system. database management system
+                <span className="text-sky-400">relational</span> oriented to
+                <span className="text-sky-400"> objects</span> and open source
+                published under the PostgreSQL license, similar to the BSD or
+                MIT BSD or MIT.
               </p>
             </h3>
           </div>
@@ -400,13 +388,13 @@ export default function Skills() {
             <h3 className="flex-col mt-2 px-1 text-[#07AC4F]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[16px]">
               MongoDB
               <p className="text-sky-50	top-0 text-[15px]">
-                {" "}
-                MongoDB es un sistema de base de datos NoSQL, orientado a
-                <span className="text-green-400"> documentos</span> y de código
-                abierto. En lugar de guardar los datos en tablas, tal y como se
-                hace en las bases de datos relacionales, MongoDB guarda
-                estructuras de datos{" "}
-                <span className="text-green-400"> BSON (JSON)</span>{" "}
+                MongoDB is a NoSQL database system, oriented to
+                <span className="text-green-400"> documents</span> and open
+                source open source. Instead of storing data in tables, as is
+                done in relational databases, MongoDB stores data in tables, as
+                is done in relational databases. in relational databases,
+                MongoDB stores data in data structures
+                <span className="text-green-400"> BSON (JSON)</span>
               </p>
             </h3>
           </div>
@@ -427,14 +415,13 @@ export default function Skills() {
             <h3 className="flex-col mt-3 px-1 text-sky-100	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
               Figma
               <p className="text-sky-50	top-0 text-[15px]">
-                {" "}
-                Figma es un editor de gráficos vectorial y una herramienta de
-                generación de{" "}
-                <span className="text-green-400"> prototipos,</span>{" "}
-                principalmente basada en la{" "}
-                <span className="text-orange-400">web,</span> con
-                características off-line adicionales habilitadas por
-                aplicaciones de escritorio en macOS y Windows.
+                Figma is a vector graphics editor and a tool for the generation
+                of generation of
+                <span className="text-green-400"> prototypes,</span>
+                mainly based on the
+                <span className="text-orange-400">web,</span> with additional
+                off-line features enabled by desktop desktop applications on
+                macOS and Windows.
               </p>
             </h3>
           </div>
