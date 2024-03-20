@@ -58,8 +58,9 @@ export default function Skills() {
             <p className="text-yellow-100	top-0  text-[15px] ">
               JavaScript is an interpreted programming language, a dialect of
               the standard of the standard
-              <span className="text-yellow-300">ECMAScript.</span> It is defined
-              as oriented to <span className="text-yellow-300">objects,</span> ​
+              <span className="text-yellow-300"> ECMAScript.</span> It is
+              defined as oriented to{" "}
+              <span className="text-yellow-300">objects,</span> ​
               prototype-based, imperative, weakly typed and dynamic.
             </p>
           </h3>
@@ -83,9 +84,9 @@ export default function Skills() {
             <p className="text-sky-50 top-0 text-[15px]">
               free and open source software developed and maintained by
               Microsoft. It is a superset of
-              <span className="text-sky-200">JavaScript,</span> that essentially
-              adds static types and objects based on
-              <span className="text-sky-200">classes.</span>
+              <span className="text-sky-200"> JavaScript,</span> that
+              essentially adds static types and objects based on
+              <span className="text-sky-200"> classes.</span>
             </p>
           </h3>
         </div>
@@ -122,12 +123,10 @@ export default function Skills() {
               <h3 className="flex-col px-1 text-slate-50	mt-2 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[15px]">
                 Express
                 <p className="text-sky-50	top-0 text-[15px]">
-                  Express.js or simply Express is a framework for web
-                  applications for the Node.js web applications for the Node.js
-                  open source, MIT-licensed Node.js open source and MIT
-                  licensed. It is used to develop applications
-                  <span className="text-gray-400">web </span> y
-                  <span className="text-gray-400">APIs.</span>
+                  Express es un entorno de trabajo para aplicaciones web para
+                  <span className="text-gray-400"> node.js</span> Se utiliza
+                  para desarrollar aplicaciones
+                  <span className="text-gray-400"> web y APIs.</span>
                 </p>
               </h3>
             </div>
@@ -148,12 +147,12 @@ export default function Skills() {
               <h3 className="flex-col 	mt-3 px-1 text-[#df4f4f]	flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
                 Meteor
                 <p className="text-sky-50	top-0 text-[15px]">
-                  Meteor, or MeteorJS, is a framework for web applications with
-                  free and open source JavaScript using Node.js. free and open
-                  source JavaScript using Node.js. Meteor facilitates the rapid
-                  creation of <span className="text-rose-400">prototypes</span>
-                  and produces code
-                  <span className="text-rose-400">multiplatform.</span>
+                  MeteorJS, is a free and open source JavaScript web application
+                  framework using{" "}
+                  <span className="text-rose-400"> Node.js.</span> Meteor
+                  facilitates rapid{" "}
+                  <span className="text-rose-400"> prototyping</span> and
+                  produces cross-platform code.
                 </p>
               </h3>
             </div>
@@ -178,7 +177,7 @@ export default function Skills() {
                   <span className="text-slate-300	"> front-end</span> React open
                   source code created by Vercel that enables functionalities
                   such as such as the rendering of the
-                  <span className="text-slate-300	">server.</span>
+                  <span className="text-slate-300"> server.</span>
                 </p>
               </h3>
             </div>
@@ -189,11 +188,11 @@ export default function Skills() {
       <div className=" w-screen relative bg-gradient-to-b from-[#374151] to-gray-800">
         <div className="absolute left-0 mt-10">
           <Image
-            src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1709751161/imagenes/P%20AND%20L.svg"
+            src="https://res.cloudinary.com/dn5ltihzv/image/upload/v1710903812/imagenes/preprocesadores%20y%20libreria%20SVG.svg"
             width={900}
             height={500}
             alt="arrowPRE"
-            className=" object-cover w-5/6"
+            className=" object-cover w-full"
           />
         </div>
         <div className=" flex flex-col items-center justify-center ">
@@ -218,7 +217,7 @@ export default function Skills() {
                   open source CSS framework for web page design. web design. The
                   main feature of this library is that it does not generates a
                   series of classes
-                  <span className="text-teal-300">predefined</span> for
+                  <span className="text-teal-300"> predefined</span> for
                   <span className="text-teal-300"> elements </span> like buttons
                   or tables
                 </p>
@@ -244,7 +243,7 @@ export default function Skills() {
                   Bootstrap is a library
                   <span className="text-violet-400"> multiplatform</span> open
                   source toolset for site design and site design and
-                  <span className="text-violet-400"> applications</span>
+                  <span className="text-violet-400"> applications </span>
                   web.
                 </p>
               </h3>
@@ -269,8 +268,8 @@ export default function Skills() {
                   Sass is a cascading style sheet language. its initial
                   versions, Nathan Weizenbaum and Chris Eppstein have continued
                   to extend Sass with
-                  <span className="text-pink-300">SassScript</span> , a language
-                  of <span className="text-pink-300"> script </span>
+                  <span className="text-pink-300"> SassScript</span> , a
+                  language of <span className="text-pink-300"> script </span>
                   simple, used in Sass files.
                 </p>
               </h3>
@@ -311,10 +310,10 @@ export default function Skills() {
             src={
               "https://res.cloudinary.com/dn5ltihzv/image/upload/v1709572214/imagenes/toolsSVG.svg"
             }
-            width={600}
-            height={200}
+            width={900}
+            height={500}
             alt="image-arrow2"
-            className="object-cover mt-10  w-full h-full"
+            className="object-cover mt-10 w-full"
           />
         </div>
 
@@ -336,12 +335,12 @@ export default function Skills() {
             <h3 className="flex-col px-1 mt-3 text-[#6fa560]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[16px]">
               node.js
               <p className="text-sky-50	top-0 text-[15px]">
-                Node.js is a cross-platform runtime environment, based on the
-                Node.js programming language. programming language
-                <span className="text-lime-400">JavaScript,</span> asynchronous,
-                with data I/O in a data-oriented architecture.
-                <span className="text-lime-400">events</span> and based on the
-                Googles V8 engine
+                Node.js is an open source, server-side runtime environment based
+                on the asynchronous
+                <span className="text-lime-400"> JavaScript</span> programming
+                language with an
+                <span className="text-lime-400"> event-driven</span>
+                architecture and based on Google V8 engine.
               </p>
             </h3>
           </div>
@@ -362,12 +361,11 @@ export default function Skills() {
             <h3 className="flex-col mt-3 px-1 text-[#6093bb]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[20px]">
               PostgreSQL
               <p className="text-sky-50	top-0 text-[15px]">
-                PostgreSQL, also called Postgres, is a database management
-                system. database management system
-                <span className="text-sky-400">relational</span> oriented to
-                <span className="text-sky-400"> objects</span> and open source
-                published under the PostgreSQL license, similar to the BSD or
-                MIT BSD or MIT.
+                PostgreSQL, also called Postgres, is an open source,
+                <span className="text-sky-400"> object-oriented,</span>
+                <span className="text-sky-400"> relational </span> database
+                management system released under the PostgreSQL license, similar
+                to BSD or MIT.
               </p>
             </h3>
           </div>
@@ -388,13 +386,10 @@ export default function Skills() {
             <h3 className="flex-col mt-2 px-1 text-[#07AC4F]	 flex text-center items-center h-24 gap-4 xs:text-[8px] sm:text-[9px] md:text-[10px] lg:text-[15px] xl:text-[16px]">
               MongoDB
               <p className="text-sky-50	top-0 text-[15px]">
-                MongoDB is a NoSQL database system, oriented to
-                <span className="text-green-400"> documents</span> and open
-                source open source. Instead of storing data in tables, as is
-                done in relational databases, MongoDB stores data in tables, as
-                is done in relational databases. in relational databases,
-                MongoDB stores data in data structures
-                <span className="text-green-400"> BSON (JSON)</span>
+                MongoDB is an open source, document-oriented,{" "}
+                <span className="text-green-400"> NoSQL </span>database system.
+                Instead of storing data in tables MongoDB stores{" "}
+                <span className="text-green-400"> JSON</span> data structures.
               </p>
             </h3>
           </div>
