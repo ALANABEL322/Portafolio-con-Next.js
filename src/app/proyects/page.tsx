@@ -43,17 +43,17 @@ export default function Proyectos() {
             />
             <p className="text-slate-50 text-1xl md:text-1xl lg:text-1xl xl:text-1xl mb-3 flex flex-col items-center justify-center">
               <span className="">sep. 23 - mar 24.</span>{" "}
-              <span className="ml-3 mb-[40px] xs:text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-1xl">
+              <span className=" mb-[40px] xs:text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-1xl">
                 Buenos Aires, Argentina
               </span>
             </p>
           </div>
 
           <div className="w-full lg:w-1/2 flex flex-col items-center sm:items-end  order-1 lg:order-2 ml-2 ">
-            <p className=" text-[#22d3ee] text-1xl md:text-1xl lg:text-2xl xl:text-2xl mb-3 mr-11">
+            <p className=" text-[#22d3ee] text-1xl md:text-1xl lg:text-2xl xl:text-2xl mb-3 md:mr-11">
               featured project
             </p>
-            <p className="text-slate-50 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl mb-3 mr-10">
+            <p className="text-slate-50 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl mb-3 md:mr-10">
               ClinicalTechsrl
             </p>
             <div className="p-5  text-slate-50 xs:text-1xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl mr-5 ml-2 border rounded-md border-zinc-400 bg-gray-900">
